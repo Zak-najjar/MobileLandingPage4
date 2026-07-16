@@ -65,3 +65,50 @@ header.header .header-img img {
 	position: absolute;
 	bottom: -150px;
 }
+
+
+
+section.feature {
+	padding: 80px 0;
+	position: relative;
+	background-color: #fff;
+}
+
+section.feature .features {
+	margin-top: 85px;
+}
+
+section.feature .features.text-left {
+	direction: ltr;
+}
+section.feature .features .d-flex {
+	margin-bottom: 60px;
+}
+
+section.feature .features .d-flex .flex-shrink-0 i {
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	background-color: #ef473a;
+	border-radius: 2px;
+	color: #fff;
+	display: block;
+}
+
+section.feature .features .d-flex .flex-grow-1 h5 {
+	font-size: 24px;
+	margin-bottom: 12px;
+	color: #080808;
+}
+
+section.feature .features .d-flex .flex-grow-1 p {
+	font-size: 15px;
+	letter-spacing: 0px;
+	line-height: 20px;
+	color: #757474;
+
+}
+
+section.feature .feature-img img {
+	width: 80%;
+}
