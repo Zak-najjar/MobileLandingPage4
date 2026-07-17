@@ -447,7 +447,7 @@ footer.footer .copyright {
 
 @media (max-width:768px) {
 	section.feature .feature-img img {
-		width: 80%;
+		width: 70%;
 		margin-bottom: 45px;
 	}
 	header.header .overlay {
@@ -473,7 +473,7 @@ footer.footer .copyright {
 
 	section.option .option-img {
 		bottom: -250px;
-		right: 75px;
+		right: 25px;
 	}
 
 
