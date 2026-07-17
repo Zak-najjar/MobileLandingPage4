@@ -194,13 +194,14 @@ section.faq {
 	background-image: url(../imgs/bg-2.jpg);
 	background-position: center;
 	background-size: cover;
-
+	background-attachment: fixed;
+	min-height: 520px;
 }
 
 section.faq .overlay {
 	background-color: rgba(0, 0, 0, 0.7);
-	padding: 60px 0;
-	height: 450px;
+	padding: 70px 0;
+
 }
 
 section.faq .overlay .faq-title h2{
@@ -245,4 +246,244 @@ section.faq .accordion .accordion-item .accordion-body p {
 	font-size: 15px;
 	line-height: 21px;
 	color: #c9c9c9;
+}
+
+
+footer.footer {
+	padding-top: 65px;
+	background-color: #232323;
+}
+footer.footer .footer-up {
+	border-bottom: 2px solid #282828;
+}
+
+footer.footer .footer-up .widget h4{
+	font-size: 24px;
+	letter-spacing: 0px;
+	line-height: 25px;
+	color: #f4f8fb;
+	border-bottom: 2px  solid #282828;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+footer.footer .footer-up .widget h4::after{
+	content: "";
+	width: 90px;
+	height: 2px;
+	background-color: #ef473a;
+	position: absolute;
+	bottom: -1px;
+	right: 0;
+
+}
+
+footer.footer .footer-up .widget p.aboutus-p {
+	font-size: 18px;
+	letter-spacing: 0px;
+	line-height: 40px;
+	color: #757474;
+	margin-bottom: 100px;
+}
+
+
+footer.footer .footer-up .widget ul.list-inline li.list-inline-item a {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	background-color: #343637;
+	display: block;
+	color: #fff;
+	text-align: center;
+	transition: all 0.5s ease;
+}
+
+
+footer.footer .footer-up .widget ul.list-inline li.list-inline-item a:hover {
+	background-color: #ef473a;
+}
+footer.footer .footer-up .widget ul.tweets {
+	padding: 0;
+	list-style: none;
+}
+footer.footer .footer-up .widget ul.tweets li {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+footer.footer .footer-up .widget ul.tweets li:not(:last-child) {
+	border-bottom: 2px solid #282828;
+}
+footer.footer .footer-up .widget ul.tweets li p {
+	font-size: 14px;
+	line-height: 23px;
+	color: #555555;
+	display: inline;
+	margin-right: 5px;
+}
+
+footer.footer .footer-up .widget ul.tweets li i {
+	color: #ef473a;
+}
+
+
+
+footer.footer .footer-up .widget form input {
+	background-color: #2c2b2b;
+	border-radius: 0;
+	border: 0;
+	padding: 10px;
+	text-align: right;
+	margin-bottom: 15px;
+}
+
+footer.footer .footer-up .widget form input::placeholder {
+	color: #c6c6c6;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+footer.footer .footer-up .widget form .btn {
+	font-size: 14px;
+	line-height: 25px;
+	color: #ffffff;
+	background-color: #ef473a;
+	border-radius: 0;
+	padding: 10px 20px;
+}
+
+
+footer.footer .footer-up .widget form .invalid-feedback {
+	margin-top: -15px;
+	margin-bottom: 15px;
+}
+
+footer.footer .copyright {
+	padding: 15px 0;
+	background-color: #232323;
+	text-align: center;
+	font-size: 15px;
+	line-height: 41px;
+	color: #565656;
+}
+
+
+@media (max-width: 1200px) {
+	section.option .option-img {
+		right: 25px;
+	}
+}
+
+@media (max-width:992px) {
+	header.header .header-block {
+		margin-top: 60px;
+	}
+	header.header .header-img {
+		padding-top: 20px
+		;
+	}
+	header.header .header-img img {
+		bottom: -100px;
+		right: 70px;
+	}
+
+	header.header .header-block .header-buttons {
+		margin-bottom: 30px;
+	}
+
+	section.feature .features .d-flex {
+		margin-bottom: 20px;
+	}
+
+	section.feature .features .d-flex .flex-grow-1 h5 {
+		font-size: 20px;
+	}
+
+	section.feature .features .d-flex .flex-grow-1 p {
+		font-size: 12px
+		;
+	}
+	section.feature .features {
+		margin-top: 0;
+	}
+
+	section.feature .features .d-flex .flex-shrink-0 i {
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+	}
+	section.feature {
+		padding: 60px 0 40px;
+	}
+	section.option {
+		padding: 30px 0;
+	}
+	section.option .option-img {
+		bottom: 0;
+		right: 0;
+	}
+
+	section.slider .slider-carousel .carousel-control-prev,
+	section.slider .slider-carousel .carousel-control-next {
+		margin-top: 85px;
+		width: 50px;
+		height: 50px;
+	}
+
+	footer.footer .footer-up .widget ul.list-inline li.list-inline-item a {
+		margin-bottom: 20px;
+	}
+
+	section.slider .slider-carousel .carousel-inner {
+		width: 70%;
+	}
+	section.feature .feature-img img {
+		width: 100%;
+	}
+}
+
+
+@media (max-width:768px) {
+	section.feature .feature-img img {
+		width: 80%;
+		margin-bottom: 45px;
+	}
+	header.header .overlay {
+		padding-top: 0;
+		padding-bottom: 400px;
+	}
+
+	header.header .header-img img {
+		right: 150px;
+		bottom: -300px;
+	}
+	header.header .header-block .header-text p {
+		margin-bottom: 15px;
+	}
+
+	header.header .header-block .header-buttons {
+		margin-bottom: 135px;
+	}
+
+	section.option {
+		padding-bottom: 400px;
+	}
+
+	section.option .option-img {
+		bottom: -250px;
+		right: 75px;
+	}
+
+
+	section.slider .slider-carousel .carousel-control-prev,
+	section.slider .slider-carousel .carousel-control-next {
+		display: none;
+	}
+
+	section.slider .slider-carousel .carousel-inner {
+		width: 100%;
+	}
+
 }
