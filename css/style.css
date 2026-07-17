@@ -188,3 +188,61 @@ section.slider  .slider-carousel .carousel-indicators button.active {
 	background-color: #ef473a;
 
 }
+
+
+section.faq {
+	background-image: url(../imgs/bg-2.jpg);
+	background-position: center;
+	background-size: cover;
+
+}
+
+section.faq .overlay {
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 60px 0;
+	height: 450px;
+}
+
+section.faq .overlay .faq-title h2{
+	font-size: 30px;
+	color: #ffffff;
+	margin-bottom: 65px;
+
+}
+
+
+section.faq .accordion .accordion-item {
+	background-color: rgba(255, 255, 255, 0.2);
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 25px;
+}
+
+section.faq .accordion .accordion-item button {
+	background-color: transparent;
+	box-shadow: none;
+	color: #fff;
+	font-size: 18px;
+
+}
+
+section.faq .accordion .accordion-item button::after {
+	content: none;
+}
+
+section.faq .accordion .accordion-item button i {
+	margin-right: auto;
+	transition: all 0.5s ease;
+}
+
+
+section.faq .accordion .accordion-item button.collapsed i {
+	transform: rotate(180deg);
+}
+
+
+section.faq .accordion .accordion-item .accordion-body p {
+	font-size: 15px;
+	line-height: 21px;
+	color: #c9c9c9;
+}
