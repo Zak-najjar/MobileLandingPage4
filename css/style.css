@@ -146,3 +146,45 @@ section.option .option-img {
 	position: absolute;
 	bottom: -100px;
 }
+
+
+section.slider {
+	padding: 80px 0;
+	background-color: #fff;
+	position: relative;
+}
+
+section.slider .slider-text h2 {
+	margin-bottom: 60px;
+}
+
+section.slider  .slider-carousel .carousel-inner {
+	width: 60%;
+	margin: auto;
+}
+
+section.slider  .slider-carousel .carousel-control-prev,
+section.slider  .slider-carousel .carousel-control-next {
+	color: #ef473a;
+	width: 70px;
+	height: 70px;
+	border: 1px solid #ef473a;
+	border-radius: 50%;
+	opacity: 1;
+	margin-top: 100px;
+}
+
+section.slider  .slider-carousel .carousel-indicators {
+	bottom: -60px;
+}
+section.slider  .slider-carousel .carousel-indicators button {
+	width: 25px;
+	height: 25px;
+	border: 1px solid #ef473a;
+	border-radius: 50%;
+}
+
+section.slider  .slider-carousel .carousel-indicators button.active {
+	background-color: #ef473a;
+
+}
